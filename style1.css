@@ -1,0 +1,28 @@
+body{
+    background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.custom-box{
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
+
+.custom-box:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+.custom-box h3{
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.custom-box p{
+    color: #666;
+    margin-bottom: 20px;
+}
